@@ -114,7 +114,7 @@ abstract class AbstractRender implements RenderInterface
         $template = file_get_contents($this->path.'/'.$this->getTemplate());
 
         foreach ($params as $key => $param) {
-            $template = str_replace(sprintf('{{ %s }}', $key), $param, $template);
+            $template = str_replace(sprintf('{{ %s }}', $key), (string) $param, $template);
         }
 
         return BadgeImage::createFromString($template, $format);
