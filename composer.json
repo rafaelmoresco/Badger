@@ -1,6 +1,6 @@
 {
-    "name": "cachethq/badger",
-    "description": "A Badge Generator For Laravel 5 and 6.",
+    "name": "rafaelmoresco/badger",
+    "description": "A Badge Generator For Laravel 8.",
     "keywords": ["badger", "badge", "shield", "svg", "Badger", "Cachet", "CachetHQ"],
     "license": "MIT",
     "authors": [
