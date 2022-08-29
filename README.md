@@ -1,16 +1,16 @@
 # Cachet Badger
 
-A badge generator for Laravel 5 and 6.
+A badge generator for Laravel 8.
 
 
 ## Installation
 
-This version requires [PHP](https://php.net) 7.1 - 7.3, and supports Laravel 5.5 and above.
+This version requires [PHP](https://php.net) 7.1 - 8.0, and supports Laravel 8 and above.
 
 To get the latest version, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require cachethq/badger
+$ composer require rafaelmoresco/badger
 ```
 
 Once installed, if you are not using automatic package discovery, then you need to register the `CachetHQ\Badger\BadgerServiceProvider` service provider in your `config/app.php`.
